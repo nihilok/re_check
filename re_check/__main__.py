@@ -9,7 +9,7 @@ if __name__ == "__main__":
     result = regex.findall(text)
 
     if result is not None:
-        print(f'{pattern=}')
+        print(f"pattern='{pattern}'")
         print(f'{text=}')
         print(f'found {len(result)} matches')
         print(result)
